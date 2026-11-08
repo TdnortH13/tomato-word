@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec
+_tmp/
+
+# 构建产物 / 第三方二进制（走 Release，不进仓库）
+番茄文档.exe
+番茄超市.exe
+engine/
+*.zip
+
+# 运行时生成物
+runtime/
+shots/
+*.log
+library.json
+
+# 诊断残留
+*a/b/c_*.txt
+dbg*.txt
+err*.txt
+*_out.txt
+*_err.txt
+*_bt.txt
+probe_*.html
+probe_*.txt
+hdr*.txt
+hdr.py
+webtest*.py
+webtest*.txt
+font.otf
+font.woff
+dl_charset.json
+wv2/
+_tmpdir/
+twdbg/
+twdir/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

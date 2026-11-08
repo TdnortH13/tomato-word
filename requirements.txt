@@ -1,0 +1,1 @@
+﻿# 本项目只用 Python 标准库，没有任何第三方依赖。pip install -r requirements.txt 是空操作。
